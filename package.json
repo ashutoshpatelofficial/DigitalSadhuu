@@ -1,0 +1,31 @@
+{
+  "name": "canvas-hackerkit",
+  "version": "1.0.1",
+  "description": "A set of terminal tools for Canvas",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "update": "git pull"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harvard-edtech/canvas-hackerkit.git"
+  },
+  "keywords": [
+    "Canvas",
+    "Tools"
+  ],
+  "author": "Gabriel Abrams <gabeabrams@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harvard-edtech/canvas-hackerkit/issues"
+  },
+  "homepage": "https://github.com/harvard-edtech/canvas-hackerkit#readme",
+  "dependencies": {
+    "caccl": "^1.0.79",
+    "caccl-api": "^1.0.24",
+    "fs": "0.0.1-security",
+    "papaparse": "^4.6.3",
+    "prompt-sync": "^4.1.6"
+  }
+}
